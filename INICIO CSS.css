@@ -1,0 +1,383 @@
+img{
+margin: auto;
+width: 350px;
+height: auto;
+}
+
+h1 {
+font-size:x-large;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+letter-spacing: 0.3rem;
+}
+
+h2 {
+	font-size:large;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	letter-spacing: 0rem;
+	
+	}
+
+h4 {
+	font-size:300%;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	letter-spacing: 0.8rem;
+	}
+
+body{
+    background-color: #F1EFE7;
+}
+
+
+
+
+* 
+
+.chamativo-btn {
+    display: inline-block;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #000000; /* Cor da borda do botão */
+    border-radius: 5px;
+    background-color: #000000; /* Cor de fundo do botão */
+    color: #F1EFE7; /* Cor do texto do botão */
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chamativo-btn:hover {
+    background-color: #F1EFE7; /* Cor de fundo do botão ao passar o mouse */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Efeito de luz ao redor do botão */
+	color: #000;
+}
+
+
+
+
+/* banner */
+#main-banner {
+	background: url('./img/Blue\ Green\ Minimalist\ Gradient\ Background\ Instagram\ Story\ \(1\).png') no-repeat;
+	background-size: cover;
+	background-position: 0 55%;
+	margin-top: 0px;
+	
+}
+
+#search-form {
+	
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15em;
+	padding-bottom: 15em;
+	text-align: center;
+}
+
+#search-form h1 {
+	font-size: 40px;
+}
+/* banner2 */
+#main-banner2 {
+	background: url('./img/19742.png') no-repeat;
+	background-size: cover;
+	background-position: 0 55%;
+	position: relative;
+	margin-top: 0px;
+}
+
+#search-form2 {
+	position: relative;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15em;
+	padding-bottom: 15em;
+	text-align: center;
+}
+
+
+
+/* company img */
+.fundo-empresas{
+	background-color:rgb(201, 199, 188);
+	position: relative;
+    width: 100%;
+    height: 350px;
+}
+#lastjobs-container {
+	text-align: center;
+	
+}
+
+.company-box1{
+	padding: .99em;
+	border-radius: 50px;
+	display: inline-block;
+}
+.company-box1 img {
+	width: 150px;
+}
+
+.company-box2{
+	padding: .99em;
+	border-radius: 50px;
+	display: inline-block;
+	
+}
+.company-box2 img {
+	width: 150px;
+}
+
+.company-box3{
+	display: inline-block;
+	padding: .99em;
+	border-radius: 50px;
+	
+}
+.company-box3 img {
+	width: 170px;
+	
+}
+
+.company-box4{
+	display: inline-block;
+	padding: .99em;
+	border-radius: .25em;
+	
+}
+.company-box4 img {
+	width: 150px;
+	
+}
+
+.company-box5{
+	display: inline-block;
+	padding: .99em;
+	border-radius: .25em;
+	
+}
+.company-box5 img {
+	width: 130px;
+	
+}
+/* footer */
+
+footer {
+	background-color: rgb(201, 199, 188);
+	padding: 4em 0;
+	padding-bottom: 20px;
+	border-top: 5px solid #000000;
+}
+
+footer h3, footer p, footer a, footer span {
+	color: #000000;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer h3 {
+	font-weight: 400;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer li {
+	list-style: none;
+}
+
+.footer-box {
+	width: 31%;
+	float: left;
+	margin-left: 300px;
+	
+}
+
+footer .wrapper:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.company-footer {
+	width: 80%;
+}
+
+.company-footer h3 {
+	margin-top: 20px;
+}
+
+.company-footer h3, .company-footer p {
+	margin-bottom: 20px;
+}
+
+.footer-list li {
+	margin-bottom: 15px;
+}
+
+.footer-list a {
+	transition: 0.5s;
+}
+
+.footer-list a:hover {
+	color: #FFF;
+}
+
+.footer-list li:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.articles-footer {
+	width: 80%;
+}
+
+.footer-list.footer-article-list span {
+	display: block;
+	float: none;
+}
+
+.footer-list li span {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+
+.footer-bottom {
+	border-top: 1px solid #B2B2B2;
+}
+
+.footer-bottom p {
+	font-weight: 600;
+	margin-top: 40px;
+}
+
+.logo-rodape{
+	width: 200px;
+}
+
+@media screen and (max-width:720px) {
+    h4 {
+		font-size:250%;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		text-align: center;
+		letter-spacing: 0.8rem;
+		}
+
+    .footer-box {
+		width: 50%;
+		margin-left: 10px;
+		
+	}
+	
+	.fundo-empresas{
+		background-color:rgb(201, 199, 188);
+		position: relative;
+		width: 100%;
+		height: 400px;
+	}
+	#lastjobs-container {
+		text-align: center;
+		
+	}
+
+	.company-box1 img {
+		width: 100px;
+	}
+	
+	.company-box2{
+		padding: .99em;
+		border-radius: 50px;
+		display: inline-block;
+		
+	}
+	.company-box2 img {
+		width: 100px;
+	}
+	
+	.company-box3{
+		display: inline-block;
+		padding: .99em;
+		border-radius: 50px;
+		
+	}
+	.company-box3 img {
+		width: 100px;
+		
+	}
+	
+	.company-box4{
+		display: inline-block;
+		padding: .99em;
+		border-radius: .25em;
+		
+	}
+	.company-box4 img {
+		width: 100px;
+		
+	}
+	
+	.company-box5{
+		display: inline-block;
+		padding: .99em;
+		border-radius: .25em;
+		
+	}
+	.company-box5 img {
+		width: 80px;
+		
+	}
+	}
+
+/*menu*/
+
+nav {
+	margin: 0 auto;
+	max-width: 800px;
+	background: rgb(201, 199, 188);
+	box-shadow:0 3px 15px rgba(82, 82, 82, 0.226);
+	margin-bottom: 50px;
+}
+
+nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	color: rgba(0, 0, 0, 0.9);
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	transition: all .3s ease-in-out;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	background: rgba(0, 0, 0, .15);
+}
+
